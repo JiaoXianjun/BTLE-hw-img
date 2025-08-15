@@ -11,7 +11,7 @@
                         "type": "XSDB_V3",
                         "name": "dbg_hub",
                         "spec": "labtools_xsdbm_v3",
-                        "clk_input_freq_hz": "100000000"
+                        "clk_input_freq_hz": "256000000"
                     },
                     {
                         "type": "ILA_V3",
@@ -28,7 +28,7 @@
                             {
                                 "name": "probe0",
                                 "id": 0,
-                                "type": "DATA_TRIGGER",
+                                "type": "DATA",
                                 "direction": "IN",
                                 "isVector": false,
                                 "leftIndex": 0,
@@ -44,7 +44,7 @@
                             {
                                 "name": "probe1",
                                 "id": 1,
-                                "type": "DATA_TRIGGER",
+                                "type": "DATA",
                                 "direction": "IN",
                                 "isVector": false,
                                 "leftIndex": 0,
@@ -60,7 +60,7 @@
                             {
                                 "name": "probe2",
                                 "id": 2,
-                                "type": "DATA_TRIGGER",
+                                "type": "DATA",
                                 "direction": "IN",
                                 "isVector": true,
                                 "leftIndex": 0,
@@ -126,7 +126,7 @@
                             {
                                 "name": "probe3",
                                 "id": 3,
-                                "type": "DATA_TRIGGER",
+                                "type": "DATA",
                                 "direction": "IN",
                                 "isVector": false,
                                 "leftIndex": 0,
@@ -142,7 +142,7 @@
                             {
                                 "name": "probe4",
                                 "id": 4,
-                                "type": "DATA_TRIGGER",
+                                "type": "DATA",
                                 "direction": "IN",
                                 "isVector": false,
                                 "leftIndex": 0,
@@ -158,7 +158,7 @@
                             {
                                 "name": "probe5",
                                 "id": 5,
-                                "type": "DATA_TRIGGER",
+                                "type": "DATA",
                                 "direction": "IN",
                                 "isVector": false,
                                 "leftIndex": 0,
@@ -171,48 +171,6 @@
                                         "parentNetId": 20
                                     }
                                 ]
-                            },
-                            {
-                                "name": "probe6",
-                                "id": 6,
-                                "type": "DATA_TRIGGER",
-                                "direction": "IN",
-                                "isVector": true,
-                                "leftIndex": 0,
-                                "rightIndex": 7,
-                                "portIndex": 6,
-                                "nets": [
-                                    {
-                                        "name": "i_system_wrapper/system_i/gpio_status_1",
-                                        "isBus": true,
-                                        "subnets": [
-                                            {
-                                                "name": "i_system_wrapper/system_i/gpio_status_1[7]"
-                                            },
-                                            {
-                                                "name": "i_system_wrapper/system_i/gpio_status_1[6]"
-                                            },
-                                            {
-                                                "name": "i_system_wrapper/system_i/gpio_status_1[5]"
-                                            },
-                                            {
-                                                "name": "i_system_wrapper/system_i/gpio_status_1[4]"
-                                            },
-                                            {
-                                                "name": "i_system_wrapper/system_i/gpio_status_1[3]"
-                                            },
-                                            {
-                                                "name": "i_system_wrapper/system_i/gpio_status_1[2]"
-                                            },
-                                            {
-                                                "name": "i_system_wrapper/system_i/gpio_status_1[1]"
-                                            },
-                                            {
-                                                "name": "i_system_wrapper/system_i/gpio_status_1[0]"
-                                            }
-                                        ]
-                                    }
-                                ]
                             }
                         ]
                     }
@@ -220,7 +178,7 @@
                 "parent_nets": [
                     {
                         "id": 20,
-                        "name": "i_system_wrapper/system_i/util_ad9361_divclk1/inst/clk_out",
+                        "name": "i_system_wrapper/system_i/clk_wiz_0/inst/clk_out1",
                         "state_reg": [
                             {
                                 "name": "i_system_wrapper/system_i/btle_controller_0/inst/btle_phy_i/btle_rx_i/genblk1[0].btle_rx_core_i/FSM_onehot_phy_rx_state_reg[0]",

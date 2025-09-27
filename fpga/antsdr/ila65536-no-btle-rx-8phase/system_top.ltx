@@ -200,14 +200,67 @@
                                 "id": 3,
                                 "type": "DATA_TRIGGER",
                                 "direction": "IN",
-                                "isVector": false,
+                                "isVector": true,
                                 "leftIndex": 0,
-                                "rightIndex": 0,
+                                "rightIndex": 16,
                                 "portIndex": 3,
                                 "nets": [
                                     {
-                                        "name": "i_system_wrapper/system_i/btle_controller_0/inst/agc_lock_change",
-                                        "isBus": false
+                                        "name": "i_system_wrapper/system_i/btle_controller_0/inst/i_abs_add_q_abs",
+                                        "isBus": true,
+                                        "subnets": [
+                                            {
+                                                "name": "i_system_wrapper/system_i/btle_controller_0/inst/i_abs_add_q_abs[16]"
+                                            },
+                                            {
+                                                "name": "i_system_wrapper/system_i/btle_controller_0/inst/i_abs_add_q_abs[15]"
+                                            },
+                                            {
+                                                "name": "i_system_wrapper/system_i/btle_controller_0/inst/i_abs_add_q_abs[14]"
+                                            },
+                                            {
+                                                "name": "i_system_wrapper/system_i/btle_controller_0/inst/i_abs_add_q_abs[13]"
+                                            },
+                                            {
+                                                "name": "i_system_wrapper/system_i/btle_controller_0/inst/i_abs_add_q_abs[12]"
+                                            },
+                                            {
+                                                "name": "i_system_wrapper/system_i/btle_controller_0/inst/i_abs_add_q_abs[11]"
+                                            },
+                                            {
+                                                "name": "i_system_wrapper/system_i/btle_controller_0/inst/i_abs_add_q_abs[10]"
+                                            },
+                                            {
+                                                "name": "i_system_wrapper/system_i/btle_controller_0/inst/i_abs_add_q_abs[9]"
+                                            },
+                                            {
+                                                "name": "i_system_wrapper/system_i/btle_controller_0/inst/i_abs_add_q_abs[8]"
+                                            },
+                                            {
+                                                "name": "i_system_wrapper/system_i/btle_controller_0/inst/i_abs_add_q_abs[7]"
+                                            },
+                                            {
+                                                "name": "i_system_wrapper/system_i/btle_controller_0/inst/i_abs_add_q_abs[6]"
+                                            },
+                                            {
+                                                "name": "i_system_wrapper/system_i/btle_controller_0/inst/i_abs_add_q_abs[5]"
+                                            },
+                                            {
+                                                "name": "i_system_wrapper/system_i/btle_controller_0/inst/i_abs_add_q_abs[4]"
+                                            },
+                                            {
+                                                "name": "i_system_wrapper/system_i/btle_controller_0/inst/i_abs_add_q_abs[3]"
+                                            },
+                                            {
+                                                "name": "i_system_wrapper/system_i/btle_controller_0/inst/i_abs_add_q_abs[2]"
+                                            },
+                                            {
+                                                "name": "i_system_wrapper/system_i/btle_controller_0/inst/i_abs_add_q_abs[1]"
+                                            },
+                                            {
+                                                "name": "i_system_wrapper/system_i/btle_controller_0/inst/i_abs_add_q_abs[0]"
+                                            }
+                                        ]
                                     }
                                 ]
                             },
@@ -222,7 +275,7 @@
                                 "portIndex": 4,
                                 "nets": [
                                     {
-                                        "name": "i_system_wrapper/system_i/btle_controller_0/inst/agc_lock_state",
+                                        "name": "i_system_wrapper/system_i/btle_controller_0/inst/agc_lock_change",
                                         "isBus": false
                                     }
                                 ]
@@ -238,7 +291,7 @@
                                 "portIndex": 5,
                                 "nets": [
                                     {
-                                        "name": "i_system_wrapper/system_i/btle_controller_0/inst/ext_rx_crc_ok",
+                                        "name": "i_system_wrapper/system_i/btle_controller_0/inst/agc_lock_state",
                                         "isBus": false
                                     }
                                 ]
@@ -254,7 +307,7 @@
                                 "portIndex": 6,
                                 "nets": [
                                     {
-                                        "name": "i_system_wrapper/system_i/btle_controller_0/inst/ext_rx_decode_end",
+                                        "name": "i_system_wrapper/system_i/btle_controller_0/inst/ext_rx_crc_ok",
                                         "isBus": false
                                     }
                                 ]
@@ -270,7 +323,7 @@
                                 "portIndex": 7,
                                 "nets": [
                                     {
-                                        "name": "i_system_wrapper/system_i/btle_controller_0/inst/ext_rx_decode_run",
+                                        "name": "i_system_wrapper/system_i/btle_controller_0/inst/ext_rx_decode_end",
                                         "isBus": false
                                     }
                                 ]
@@ -286,7 +339,7 @@
                                 "portIndex": 8,
                                 "nets": [
                                     {
-                                        "name": "i_system_wrapper/system_i/btle_controller_0/inst/ext_rx_hit_flag",
+                                        "name": "i_system_wrapper/system_i/btle_controller_0/inst/ext_rx_decode_run",
                                         "isBus": false
                                     }
                                 ]
@@ -300,6 +353,22 @@
                                 "leftIndex": 0,
                                 "rightIndex": 0,
                                 "portIndex": 9,
+                                "nets": [
+                                    {
+                                        "name": "i_system_wrapper/system_i/btle_controller_0/inst/ext_rx_hit_flag",
+                                        "isBus": false
+                                    }
+                                ]
+                            },
+                            {
+                                "name": "probe10",
+                                "id": 10,
+                                "type": "DATA_TRIGGER",
+                                "direction": "IN",
+                                "isVector": false,
+                                "leftIndex": 0,
+                                "rightIndex": 0,
+                                "portIndex": 10,
                                 "nets": [
                                     {
                                         "name": "i_system_wrapper/system_i/btle_controller_0/inst/rx_iq_valid",

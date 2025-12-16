@@ -14,100 +14,125 @@
                         "clk_input_freq_hz": "16000000"
                     },
                     {
-                        "type": "VIO_V2",
-                        "name": "i_system_wrapper/system_i/vio_0",
-                        "spec": "labtools_vio_v3",
-                        "ipName": "vio",
-                        "core_location": {
-                            "user_chain": 1,
-                            "slave_index": 0,
-                            "bscan_switch_index": 0
-                        },
-                        "uuid": "438738759C0358D494ACE27CCD2F1667",
-                        "pins": [
-                            {
-                                "name": "probe_in0",
-                                "id": 0,
-                                "type": "DATA",
-                                "direction": "IN",
-                                "isVector": false,
-                                "leftIndex": 0,
-                                "rightIndex": 0,
-                                "portIndex": 0,
-                                "nets": [
-                                    {
-                                        "name": "i_system_wrapper/system_i/util_vector_logic_0_Res",
-                                        "isBus": false,
-                                        "parentNetId": 0
-                                    }
-                                ]
-                            },
-                            {
-                                "name": "probe_out0",
-                                "id": 1,
-                                "type": "DATA",
-                                "direction": "OUT",
-                                "isVector": false,
-                                "leftIndex": 0,
-                                "rightIndex": 0,
-                                "portIndex": 0,
-                                "nets": [
-                                    {
-                                        "name": "i_system_wrapper/system_i/vio_0_probe_out0",
-                                        "isBus": false
-                                    }
-                                ]
-                            }
-                        ]
-                    },
-                    {
                         "type": "ILA_V3",
                         "name": "u_ila_0",
                         "spec": "labtools_ila_v6",
                         "core_location": {
                             "user_chain": 1,
-                            "slave_index": 1,
+                            "slave_index": 0,
                             "bscan_switch_index": 0
                         },
                         "uuid": "23e7d65a79bc59f7bc47406c1714dfae",
                         "pins": [
                             {
                                 "name": "probe0",
-                                "id": 2,
+                                "id": 0,
                                 "type": "DATA_TRIGGER",
                                 "direction": "IN",
                                 "isVector": true,
                                 "leftIndex": 0,
-                                "rightIndex": 7,
+                                "rightIndex": 31,
                                 "portIndex": 0,
                                 "nets": [
                                     {
-                                        "name": "i_system_wrapper/system_i/btle_controller_0/inst/ext_rx_pdu_octet_mem_data",
+                                        "name": "i_system_wrapper/system_i/btle_controller_0/inst/rx_unique_bit_sequence",
                                         "isBus": true,
                                         "subnets": [
                                             {
-                                                "name": "i_system_wrapper/system_i/btle_controller_0/inst/ext_rx_pdu_octet_mem_data[7]"
+                                                "name": "i_system_wrapper/system_i/btle_controller_0/inst/rx_unique_bit_sequence[31]"
                                             },
                                             {
-                                                "name": "i_system_wrapper/system_i/btle_controller_0/inst/ext_rx_pdu_octet_mem_data[6]"
+                                                "name": "i_system_wrapper/system_i/btle_controller_0/inst/rx_unique_bit_sequence[30]"
                                             },
                                             {
-                                                "name": "i_system_wrapper/system_i/btle_controller_0/inst/ext_rx_pdu_octet_mem_data[5]"
+                                                "name": "i_system_wrapper/system_i/btle_controller_0/inst/rx_unique_bit_sequence[29]"
                                             },
                                             {
-                                                "name": "i_system_wrapper/system_i/btle_controller_0/inst/ext_rx_pdu_octet_mem_data[4]"
+                                                "name": "i_system_wrapper/system_i/btle_controller_0/inst/rx_unique_bit_sequence[28]"
                                             },
                                             {
-                                                "name": "i_system_wrapper/system_i/btle_controller_0/inst/ext_rx_pdu_octet_mem_data[3]"
+                                                "name": "i_system_wrapper/system_i/btle_controller_0/inst/rx_unique_bit_sequence[27]"
                                             },
                                             {
-                                                "name": "i_system_wrapper/system_i/btle_controller_0/inst/ext_rx_pdu_octet_mem_data[2]"
+                                                "name": "i_system_wrapper/system_i/btle_controller_0/inst/rx_unique_bit_sequence[26]"
                                             },
                                             {
-                                                "name": "i_system_wrapper/system_i/btle_controller_0/inst/ext_rx_pdu_octet_mem_data[1]"
+                                                "name": "i_system_wrapper/system_i/btle_controller_0/inst/rx_unique_bit_sequence[25]"
                                             },
                                             {
-                                                "name": "i_system_wrapper/system_i/btle_controller_0/inst/ext_rx_pdu_octet_mem_data[0]"
+                                                "name": "i_system_wrapper/system_i/btle_controller_0/inst/rx_unique_bit_sequence[24]"
+                                            },
+                                            {
+                                                "name": "i_system_wrapper/system_i/btle_controller_0/inst/rx_unique_bit_sequence[23]"
+                                            },
+                                            {
+                                                "name": "i_system_wrapper/system_i/btle_controller_0/inst/rx_unique_bit_sequence[22]"
+                                            },
+                                            {
+                                                "name": "i_system_wrapper/system_i/btle_controller_0/inst/rx_unique_bit_sequence[21]"
+                                            },
+                                            {
+                                                "name": "i_system_wrapper/system_i/btle_controller_0/inst/rx_unique_bit_sequence[20]"
+                                            },
+                                            {
+                                                "name": "i_system_wrapper/system_i/btle_controller_0/inst/rx_unique_bit_sequence[19]"
+                                            },
+                                            {
+                                                "name": "i_system_wrapper/system_i/btle_controller_0/inst/rx_unique_bit_sequence[18]"
+                                            },
+                                            {
+                                                "name": "i_system_wrapper/system_i/btle_controller_0/inst/rx_unique_bit_sequence[17]"
+                                            },
+                                            {
+                                                "name": "i_system_wrapper/system_i/btle_controller_0/inst/rx_unique_bit_sequence[16]"
+                                            },
+                                            {
+                                                "name": "i_system_wrapper/system_i/btle_controller_0/inst/rx_unique_bit_sequence[15]"
+                                            },
+                                            {
+                                                "name": "i_system_wrapper/system_i/btle_controller_0/inst/rx_unique_bit_sequence[14]"
+                                            },
+                                            {
+                                                "name": "i_system_wrapper/system_i/btle_controller_0/inst/rx_unique_bit_sequence[13]"
+                                            },
+                                            {
+                                                "name": "i_system_wrapper/system_i/btle_controller_0/inst/rx_unique_bit_sequence[12]"
+                                            },
+                                            {
+                                                "name": "i_system_wrapper/system_i/btle_controller_0/inst/rx_unique_bit_sequence[11]"
+                                            },
+                                            {
+                                                "name": "i_system_wrapper/system_i/btle_controller_0/inst/rx_unique_bit_sequence[10]"
+                                            },
+                                            {
+                                                "name": "i_system_wrapper/system_i/btle_controller_0/inst/rx_unique_bit_sequence[9]"
+                                            },
+                                            {
+                                                "name": "i_system_wrapper/system_i/btle_controller_0/inst/rx_unique_bit_sequence[8]"
+                                            },
+                                            {
+                                                "name": "i_system_wrapper/system_i/btle_controller_0/inst/rx_unique_bit_sequence[7]"
+                                            },
+                                            {
+                                                "name": "i_system_wrapper/system_i/btle_controller_0/inst/rx_unique_bit_sequence[6]"
+                                            },
+                                            {
+                                                "name": "i_system_wrapper/system_i/btle_controller_0/inst/rx_unique_bit_sequence[5]"
+                                            },
+                                            {
+                                                "name": "i_system_wrapper/system_i/btle_controller_0/inst/rx_unique_bit_sequence[4]"
+                                            },
+                                            {
+                                                "name": "i_system_wrapper/system_i/btle_controller_0/inst/rx_unique_bit_sequence[3]"
+                                            },
+                                            {
+                                                "name": "i_system_wrapper/system_i/btle_controller_0/inst/rx_unique_bit_sequence[2]"
+                                            },
+                                            {
+                                                "name": "i_system_wrapper/system_i/btle_controller_0/inst/rx_unique_bit_sequence[1]"
+                                            },
+                                            {
+                                                "name": "i_system_wrapper/system_i/btle_controller_0/inst/rx_unique_bit_sequence[0]"
                                             }
                                         ]
                                     }
@@ -115,454 +140,13 @@
                             },
                             {
                                 "name": "probe1",
-                                "id": 3,
-                                "type": "DATA_TRIGGER",
-                                "direction": "IN",
-                                "isVector": true,
-                                "leftIndex": 0,
-                                "rightIndex": 5,
-                                "portIndex": 1,
-                                "nets": [
-                                    {
-                                        "name": "i_system_wrapper/system_i/btle_controller_0/inst/btle_ll_i/rx_pdu_octet_mem_addr",
-                                        "isBus": true,
-                                        "subnets": [
-                                            {
-                                                "name": "i_system_wrapper/system_i/btle_controller_0/inst/btle_ll_i/rx_pdu_octet_mem_addr[5]"
-                                            },
-                                            {
-                                                "name": "i_system_wrapper/system_i/btle_controller_0/inst/btle_ll_i/rx_pdu_octet_mem_addr[4]"
-                                            },
-                                            {
-                                                "name": "i_system_wrapper/system_i/btle_controller_0/inst/btle_ll_i/rx_pdu_octet_mem_addr[3]"
-                                            },
-                                            {
-                                                "name": "i_system_wrapper/system_i/btle_controller_0/inst/btle_ll_i/rx_pdu_octet_mem_addr[2]"
-                                            },
-                                            {
-                                                "name": "i_system_wrapper/system_i/btle_controller_0/inst/btle_ll_i/rx_pdu_octet_mem_addr[1]"
-                                            },
-                                            {
-                                                "name": "i_system_wrapper/system_i/btle_controller_0/inst/btle_ll_i/rx_pdu_octet_mem_addr[0]"
-                                            }
-                                        ]
-                                    }
-                                ]
-                            },
-                            {
-                                "name": "probe2",
-                                "id": 4,
-                                "type": "DATA_TRIGGER",
-                                "direction": "IN",
-                                "isVector": true,
-                                "leftIndex": 0,
-                                "rightIndex": 6,
-                                "portIndex": 2,
-                                "nets": [
-                                    {
-                                        "name": "i_system_wrapper/system_i/btle_controller_0/inst/btle_ll_i/rx_payload_length_axi",
-                                        "isBus": true,
-                                        "subnets": [
-                                            {
-                                                "name": "i_system_wrapper/system_i/btle_controller_0/inst/btle_ll_i/rx_payload_length_axi[6]"
-                                            },
-                                            {
-                                                "name": "i_system_wrapper/system_i/btle_controller_0/inst/btle_ll_i/rx_payload_length_axi[5]"
-                                            },
-                                            {
-                                                "name": "i_system_wrapper/system_i/btle_controller_0/inst/btle_ll_i/rx_payload_length_axi[4]"
-                                            },
-                                            {
-                                                "name": "i_system_wrapper/system_i/btle_controller_0/inst/btle_ll_i/rx_payload_length_axi[3]"
-                                            },
-                                            {
-                                                "name": "i_system_wrapper/system_i/btle_controller_0/inst/btle_ll_i/rx_payload_length_axi[2]"
-                                            },
-                                            {
-                                                "name": "i_system_wrapper/system_i/btle_controller_0/inst/btle_ll_i/rx_payload_length_axi[1]"
-                                            },
-                                            {
-                                                "name": "i_system_wrapper/system_i/btle_controller_0/inst/btle_ll_i/rx_payload_length_axi[0]"
-                                            }
-                                        ]
-                                    }
-                                ]
-                            },
-                            {
-                                "name": "probe3",
-                                "id": 5,
-                                "type": "DATA_TRIGGER",
-                                "direction": "IN",
-                                "isVector": true,
-                                "leftIndex": 0,
-                                "rightIndex": 5,
-                                "portIndex": 3,
-                                "nets": [
-                                    {
-                                        "name": "i_system_wrapper/system_i/btle_controller_0/inst/btle_ll_i/rx_channel_number_axi",
-                                        "isBus": true,
-                                        "subnets": [
-                                            {
-                                                "name": "i_system_wrapper/system_i/btle_controller_0/inst/btle_ll_i/rx_channel_number_axi[5]"
-                                            },
-                                            {
-                                                "name": "i_system_wrapper/system_i/btle_controller_0/inst/btle_ll_i/rx_channel_number_axi[4]"
-                                            },
-                                            {
-                                                "name": "i_system_wrapper/system_i/btle_controller_0/inst/btle_ll_i/rx_channel_number_axi[3]"
-                                            },
-                                            {
-                                                "name": "i_system_wrapper/system_i/btle_controller_0/inst/btle_ll_i/rx_channel_number_axi[2]"
-                                            },
-                                            {
-                                                "name": "i_system_wrapper/system_i/btle_controller_0/inst/btle_ll_i/rx_channel_number_axi[1]"
-                                            },
-                                            {
-                                                "name": "i_system_wrapper/system_i/btle_controller_0/inst/btle_ll_i/rx_channel_number_axi[0]"
-                                            }
-                                        ]
-                                    }
-                                ]
-                            },
-                            {
-                                "name": "probe4",
-                                "id": 6,
-                                "type": "DATA_TRIGGER",
-                                "direction": "IN",
-                                "isVector": true,
-                                "leftIndex": 0,
-                                "rightIndex": 0,
-                                "portIndex": 4,
-                                "nets": [
-                                    {
-                                        "name": "i_system_wrapper/system_i/btle_controller_0/inst/btle_ll_i/reg_gpio_axi_1",
-                                        "isBus": true,
-                                        "subnets": [
-                                            {
-                                                "name": "i_system_wrapper/system_i/btle_controller_0/inst/btle_ll_i/reg_gpio_axi_1[0]"
-                                            }
-                                        ]
-                                    }
-                                ]
-                            },
-                            {
-                                "name": "probe4",
-                                "id": 7,
-                                "type": "DATA_TRIGGER",
-                                "direction": "IN",
-                                "isVector": true,
-                                "leftIndex": 1,
-                                "rightIndex": 1,
-                                "portIndex": 4,
-                                "nets": [
-                                    {
-                                        "name": "i_system_wrapper/system_i/btle_controller_0/inst/btle_ll_i/reg_gpio_axi",
-                                        "isBus": true,
-                                        "subnets": [
-                                            {
-                                                "name": "i_system_wrapper/system_i/btle_controller_0/inst/btle_ll_i/reg_gpio_axi[15]"
-                                            }
-                                        ]
-                                    }
-                                ]
-                            },
-                            {
-                                "name": "probe5",
-                                "id": 8,
-                                "type": "DATA_TRIGGER",
-                                "direction": "IN",
-                                "isVector": true,
-                                "leftIndex": 0,
-                                "rightIndex": 3,
-                                "portIndex": 5,
-                                "nets": [
-                                    {
-                                        "name": "i_system_wrapper/system_i/btle_controller_0/inst/btle_ll_i/event1_counter_axi",
-                                        "isBus": true,
-                                        "subnets": [
-                                            {
-                                                "name": "i_system_wrapper/system_i/btle_controller_0/inst/btle_ll_i/event1_counter_axi[3]"
-                                            },
-                                            {
-                                                "name": "i_system_wrapper/system_i/btle_controller_0/inst/btle_ll_i/event1_counter_axi[2]"
-                                            },
-                                            {
-                                                "name": "i_system_wrapper/system_i/btle_controller_0/inst/btle_ll_i/event1_counter_axi[1]"
-                                            },
-                                            {
-                                                "name": "i_system_wrapper/system_i/btle_controller_0/inst/btle_ll_i/event1_counter_axi[0]"
-                                            }
-                                        ]
-                                    }
-                                ]
-                            },
-                            {
-                                "name": "probe6",
-                                "id": 9,
-                                "type": "DATA_TRIGGER",
-                                "direction": "IN",
-                                "isVector": true,
-                                "leftIndex": 0,
-                                "rightIndex": 4,
-                                "portIndex": 6,
-                                "nets": [
-                                    {
-                                        "name": "i_system_wrapper/system_i/btle_controller_0/inst/btle_ll_i/axi_awaddr_core",
-                                        "isBus": true,
-                                        "subnets": [
-                                            {
-                                                "name": "i_system_wrapper/system_i/btle_controller_0/inst/btle_ll_i/axi_awaddr_core[4]"
-                                            },
-                                            {
-                                                "name": "i_system_wrapper/system_i/btle_controller_0/inst/btle_ll_i/axi_awaddr_core[3]"
-                                            },
-                                            {
-                                                "name": "i_system_wrapper/system_i/btle_controller_0/inst/btle_ll_i/axi_awaddr_core[2]"
-                                            },
-                                            {
-                                                "name": "i_system_wrapper/system_i/btle_controller_0/inst/btle_ll_i/axi_awaddr_core[1]"
-                                            },
-                                            {
-                                                "name": "i_system_wrapper/system_i/btle_controller_0/inst/btle_ll_i/axi_awaddr_core[0]"
-                                            }
-                                        ]
-                                    }
-                                ]
-                            },
-                            {
-                                "name": "probe7",
-                                "id": 10,
-                                "type": "DATA_TRIGGER",
-                                "direction": "IN",
-                                "isVector": true,
-                                "leftIndex": 0,
-                                "rightIndex": 4,
-                                "portIndex": 7,
-                                "nets": [
-                                    {
-                                        "name": "i_system_wrapper/system_i/btle_controller_0/inst/btle_ll_i/axi_araddr_core",
-                                        "isBus": true,
-                                        "subnets": [
-                                            {
-                                                "name": "i_system_wrapper/system_i/btle_controller_0/inst/btle_ll_i/axi_araddr_core[4]"
-                                            },
-                                            {
-                                                "name": "i_system_wrapper/system_i/btle_controller_0/inst/btle_ll_i/axi_araddr_core[3]"
-                                            },
-                                            {
-                                                "name": "i_system_wrapper/system_i/btle_controller_0/inst/btle_ll_i/axi_araddr_core[2]"
-                                            },
-                                            {
-                                                "name": "i_system_wrapper/system_i/btle_controller_0/inst/btle_ll_i/axi_araddr_core[1]"
-                                            },
-                                            {
-                                                "name": "i_system_wrapper/system_i/btle_controller_0/inst/btle_ll_i/axi_araddr_core[0]"
-                                            }
-                                        ]
-                                    }
-                                ]
-                            },
-                            {
-                                "name": "probe8",
-                                "id": 11,
-                                "type": "DATA_TRIGGER",
-                                "direction": "IN",
-                                "isVector": false,
-                                "leftIndex": 0,
-                                "rightIndex": 0,
-                                "portIndex": 8,
-                                "nets": [
-                                    {
-                                        "name": "i_system_wrapper/system_i/btle_controller_0/inst/btle_ll_i/clk_cross_by_xpm_fifo_async_s_axi_to_bb_i/write_data_delay",
-                                        "isBus": true,
-                                        "subnets": [
-                                            {
-                                                "name": "i_system_wrapper/system_i/btle_controller_0/inst/btle_ll_i/clk_cross_by_xpm_fifo_async_s_axi_to_bb_i/write_data_delay[206]"
-                                            }
-                                        ]
-                                    }
-                                ]
-                            },
-                            {
-                                "name": "probe9",
-                                "id": 12,
-                                "type": "DATA_TRIGGER",
-                                "direction": "IN",
-                                "isVector": true,
-                                "leftIndex": 0,
-                                "rightIndex": 3,
-                                "portIndex": 9,
-                                "nets": [
-                                    {
-                                        "name": "i_system_wrapper/system_i/btle_controller_0/inst/btle_ll_i/clk_cross_by_xpm_fifo_async_s_axi_to_bb_i/wr_data_count",
-                                        "isBus": true,
-                                        "subnets": [
-                                            {
-                                                "name": "i_system_wrapper/system_i/btle_controller_0/inst/btle_ll_i/clk_cross_by_xpm_fifo_async_s_axi_to_bb_i/wr_data_count[3]"
-                                            },
-                                            {
-                                                "name": "i_system_wrapper/system_i/btle_controller_0/inst/btle_ll_i/clk_cross_by_xpm_fifo_async_s_axi_to_bb_i/wr_data_count[2]"
-                                            },
-                                            {
-                                                "name": "i_system_wrapper/system_i/btle_controller_0/inst/btle_ll_i/clk_cross_by_xpm_fifo_async_s_axi_to_bb_i/wr_data_count[1]"
-                                            },
-                                            {
-                                                "name": "i_system_wrapper/system_i/btle_controller_0/inst/btle_ll_i/clk_cross_by_xpm_fifo_async_s_axi_to_bb_i/wr_data_count[0]"
-                                            }
-                                        ]
-                                    }
-                                ]
-                            },
-                            {
-                                "name": "probe10",
-                                "id": 13,
-                                "type": "DATA_TRIGGER",
-                                "direction": "IN",
-                                "isVector": false,
-                                "leftIndex": 0,
-                                "rightIndex": 0,
-                                "portIndex": 10,
-                                "nets": [
-                                    {
-                                        "name": "i_system_wrapper/system_i/btle_controller_0/inst/btle_ll_i/rx_crc_ok_axi",
-                                        "isBus": false
-                                    }
-                                ]
-                            },
-                            {
-                                "name": "probe11",
-                                "id": 14,
-                                "type": "DATA_TRIGGER",
-                                "direction": "IN",
-                                "isVector": false,
-                                "leftIndex": 0,
-                                "rightIndex": 0,
-                                "portIndex": 11,
-                                "nets": [
-                                    {
-                                        "name": "i_system_wrapper/system_i/btle_controller_0/inst/btle_ll_i/rx_crc_ok_capture_by_decode_end_axi",
-                                        "isBus": false
-                                    }
-                                ]
-                            },
-                            {
-                                "name": "probe12",
-                                "id": 15,
-                                "type": "DATA_TRIGGER",
-                                "direction": "IN",
-                                "isVector": false,
-                                "leftIndex": 0,
-                                "rightIndex": 0,
-                                "portIndex": 12,
-                                "nets": [
-                                    {
-                                        "name": "i_system_wrapper/system_i/btle_controller_0/inst/btle_ll_i/rx_decode_end_axi",
-                                        "isBus": false
-                                    }
-                                ]
-                            },
-                            {
-                                "name": "probe13",
-                                "id": 16,
-                                "type": "DATA_TRIGGER",
-                                "direction": "IN",
-                                "isVector": false,
-                                "leftIndex": 0,
-                                "rightIndex": 0,
-                                "portIndex": 13,
-                                "nets": [
-                                    {
-                                        "name": "i_system_wrapper/system_i/btle_controller_0/inst/btle_ll_i/rx_decode_run_axi",
-                                        "isBus": false
-                                    }
-                                ]
-                            },
-                            {
-                                "name": "probe14",
-                                "id": 17,
-                                "type": "DATA_TRIGGER",
-                                "direction": "IN",
-                                "isVector": false,
-                                "leftIndex": 0,
-                                "rightIndex": 0,
-                                "portIndex": 14,
-                                "nets": [
-                                    {
-                                        "name": "i_system_wrapper/system_i/btle_controller_0/inst/btle_ll_i/rx_hit_flag_axi",
-                                        "isBus": false
-                                    }
-                                ]
-                            },
-                            {
-                                "name": "probe15",
-                                "id": 18,
-                                "type": "DATA_TRIGGER",
-                                "direction": "IN",
-                                "isVector": false,
-                                "leftIndex": 0,
-                                "rightIndex": 0,
-                                "portIndex": 15,
-                                "nets": [
-                                    {
-                                        "name": "i_system_wrapper/system_i/btle_controller_0/inst/btle_ll_i/slv_reg_rden",
-                                        "isBus": false
-                                    }
-                                ]
-                            },
-                            {
-                                "name": "probe16",
-                                "id": 19,
-                                "type": "DATA_TRIGGER",
-                                "direction": "IN",
-                                "isVector": false,
-                                "leftIndex": 0,
-                                "rightIndex": 0,
-                                "portIndex": 16,
-                                "nets": [
-                                    {
-                                        "name": "i_system_wrapper/system_i/btle_controller_0/inst/btle_ll_i/slv_reg_wren",
-                                        "isBus": false
-                                    }
-                                ]
-                            },
-                            {
-                                "name": "probe17",
-                                "id": 20,
-                                "type": "DATA_TRIGGER",
-                                "direction": "IN",
-                                "isVector": false,
-                                "leftIndex": 0,
-                                "rightIndex": 0,
-                                "portIndex": 17,
-                                "nets": [
-                                    {
-                                        "name": "i_system_wrapper/system_i/btle_controller_0/inst/btle_ll_i/clk_cross_by_xpm_fifo_async_s_axi_to_bb_i/wr_en",
-                                        "isBus": false
-                                    }
-                                ]
-                            }
-                        ]
-                    },
-                    {
-                        "type": "ILA_V3",
-                        "name": "u_ila_1",
-                        "spec": "labtools_ila_v6",
-                        "core_location": {
-                            "user_chain": 1,
-                            "slave_index": 2,
-                            "bscan_switch_index": 0
-                        },
-                        "uuid": "3b505a030738513c98471d25f5b1f848",
-                        "pins": [
-                            {
-                                "name": "probe0",
-                                "id": 21,
+                                "id": 1,
                                 "type": "DATA_TRIGGER",
                                 "direction": "IN",
                                 "isVector": true,
                                 "leftIndex": 0,
                                 "rightIndex": 15,
-                                "portIndex": 0,
+                                "portIndex": 1,
                                 "nets": [
                                     {
                                         "name": "i_system_wrapper/system_i/btle_controller_0/inst/rx_q_signal",
@@ -621,14 +205,14 @@
                                 ]
                             },
                             {
-                                "name": "probe1",
-                                "id": 22,
+                                "name": "probe2",
+                                "id": 2,
                                 "type": "DATA_TRIGGER",
                                 "direction": "IN",
                                 "isVector": true,
                                 "leftIndex": 0,
                                 "rightIndex": 15,
-                                "portIndex": 1,
+                                "portIndex": 2,
                                 "nets": [
                                     {
                                         "name": "i_system_wrapper/system_i/btle_controller_0/inst/rx_i_signal",
@@ -687,14 +271,140 @@
                                 ]
                             },
                             {
-                                "name": "probe2",
-                                "id": 23,
+                                "name": "probe3",
+                                "id": 3,
+                                "type": "DATA_TRIGGER",
+                                "direction": "IN",
+                                "isVector": true,
+                                "leftIndex": 0,
+                                "rightIndex": 23,
+                                "portIndex": 3,
+                                "nets": [
+                                    {
+                                        "name": "i_system_wrapper/system_i/btle_controller_0/inst/rx_crc_state_init_bit",
+                                        "isBus": true,
+                                        "subnets": [
+                                            {
+                                                "name": "i_system_wrapper/system_i/btle_controller_0/inst/rx_crc_state_init_bit[23]"
+                                            },
+                                            {
+                                                "name": "i_system_wrapper/system_i/btle_controller_0/inst/rx_crc_state_init_bit[22]"
+                                            },
+                                            {
+                                                "name": "i_system_wrapper/system_i/btle_controller_0/inst/rx_crc_state_init_bit[21]"
+                                            },
+                                            {
+                                                "name": "i_system_wrapper/system_i/btle_controller_0/inst/rx_crc_state_init_bit[20]"
+                                            },
+                                            {
+                                                "name": "i_system_wrapper/system_i/btle_controller_0/inst/rx_crc_state_init_bit[19]"
+                                            },
+                                            {
+                                                "name": "i_system_wrapper/system_i/btle_controller_0/inst/rx_crc_state_init_bit[18]"
+                                            },
+                                            {
+                                                "name": "i_system_wrapper/system_i/btle_controller_0/inst/rx_crc_state_init_bit[17]"
+                                            },
+                                            {
+                                                "name": "i_system_wrapper/system_i/btle_controller_0/inst/rx_crc_state_init_bit[16]"
+                                            },
+                                            {
+                                                "name": "i_system_wrapper/system_i/btle_controller_0/inst/rx_crc_state_init_bit[15]"
+                                            },
+                                            {
+                                                "name": "i_system_wrapper/system_i/btle_controller_0/inst/rx_crc_state_init_bit[14]"
+                                            },
+                                            {
+                                                "name": "i_system_wrapper/system_i/btle_controller_0/inst/rx_crc_state_init_bit[13]"
+                                            },
+                                            {
+                                                "name": "i_system_wrapper/system_i/btle_controller_0/inst/rx_crc_state_init_bit[12]"
+                                            },
+                                            {
+                                                "name": "i_system_wrapper/system_i/btle_controller_0/inst/rx_crc_state_init_bit[11]"
+                                            },
+                                            {
+                                                "name": "i_system_wrapper/system_i/btle_controller_0/inst/rx_crc_state_init_bit[10]"
+                                            },
+                                            {
+                                                "name": "i_system_wrapper/system_i/btle_controller_0/inst/rx_crc_state_init_bit[9]"
+                                            },
+                                            {
+                                                "name": "i_system_wrapper/system_i/btle_controller_0/inst/rx_crc_state_init_bit[8]"
+                                            },
+                                            {
+                                                "name": "i_system_wrapper/system_i/btle_controller_0/inst/rx_crc_state_init_bit[7]"
+                                            },
+                                            {
+                                                "name": "i_system_wrapper/system_i/btle_controller_0/inst/rx_crc_state_init_bit[6]"
+                                            },
+                                            {
+                                                "name": "i_system_wrapper/system_i/btle_controller_0/inst/rx_crc_state_init_bit[5]"
+                                            },
+                                            {
+                                                "name": "i_system_wrapper/system_i/btle_controller_0/inst/rx_crc_state_init_bit[4]"
+                                            },
+                                            {
+                                                "name": "i_system_wrapper/system_i/btle_controller_0/inst/rx_crc_state_init_bit[3]"
+                                            },
+                                            {
+                                                "name": "i_system_wrapper/system_i/btle_controller_0/inst/rx_crc_state_init_bit[2]"
+                                            },
+                                            {
+                                                "name": "i_system_wrapper/system_i/btle_controller_0/inst/rx_crc_state_init_bit[1]"
+                                            },
+                                            {
+                                                "name": "i_system_wrapper/system_i/btle_controller_0/inst/rx_crc_state_init_bit[0]"
+                                            }
+                                        ]
+                                    }
+                                ]
+                            },
+                            {
+                                "name": "probe4",
+                                "id": 4,
+                                "type": "DATA_TRIGGER",
+                                "direction": "IN",
+                                "isVector": true,
+                                "leftIndex": 0,
+                                "rightIndex": 5,
+                                "portIndex": 4,
+                                "nets": [
+                                    {
+                                        "name": "i_system_wrapper/system_i/btle_controller_0/inst/rx_channel_number",
+                                        "isBus": true,
+                                        "subnets": [
+                                            {
+                                                "name": "i_system_wrapper/system_i/btle_controller_0/inst/rx_channel_number[5]"
+                                            },
+                                            {
+                                                "name": "i_system_wrapper/system_i/btle_controller_0/inst/rx_channel_number[4]"
+                                            },
+                                            {
+                                                "name": "i_system_wrapper/system_i/btle_controller_0/inst/rx_channel_number[3]"
+                                            },
+                                            {
+                                                "name": "i_system_wrapper/system_i/btle_controller_0/inst/rx_channel_number[2]"
+                                            },
+                                            {
+                                                "name": "i_system_wrapper/system_i/btle_controller_0/inst/rx_channel_number[1]"
+                                            },
+                                            {
+                                                "name": "i_system_wrapper/system_i/btle_controller_0/inst/rx_channel_number[0]"
+                                            }
+                                        ]
+                                    }
+                                ]
+                            },
+                            {
+                                "name": "probe5",
+                                "id": 5,
                                 "type": "DATA_TRIGGER",
                                 "direction": "IN",
                                 "isVector": true,
                                 "leftIndex": 0,
                                 "rightIndex": 6,
-                                "portIndex": 2,
+                                "portIndex": 5,
                                 "nets": [
                                     {
                                         "name": "i_system_wrapper/system_i/btle_controller_0/inst/rf_gain",
@@ -726,150 +436,27 @@
                                 ]
                             },
                             {
-                                "name": "probe3",
-                                "id": 24,
-                                "type": "DATA_TRIGGER",
-                                "direction": "IN",
-                                "isVector": true,
-                                "leftIndex": 0,
-                                "rightIndex": 6,
-                                "portIndex": 3,
-                                "nets": [
-                                    {
-                                        "name": "i_system_wrapper/system_i/btle_controller_0/inst/btle_phy_i/rx_payload_length",
-                                        "isBus": true,
-                                        "subnets": [
-                                            {
-                                                "name": "i_system_wrapper/system_i/btle_controller_0/inst/btle_phy_i/rx_payload_length[6]"
-                                            },
-                                            {
-                                                "name": "i_system_wrapper/system_i/btle_controller_0/inst/btle_phy_i/rx_payload_length[5]"
-                                            },
-                                            {
-                                                "name": "i_system_wrapper/system_i/btle_controller_0/inst/btle_phy_i/rx_payload_length[4]"
-                                            },
-                                            {
-                                                "name": "i_system_wrapper/system_i/btle_controller_0/inst/btle_phy_i/rx_payload_length[3]"
-                                            },
-                                            {
-                                                "name": "i_system_wrapper/system_i/btle_controller_0/inst/btle_phy_i/rx_payload_length[2]"
-                                            },
-                                            {
-                                                "name": "i_system_wrapper/system_i/btle_controller_0/inst/btle_phy_i/rx_payload_length[1]"
-                                            },
-                                            {
-                                                "name": "i_system_wrapper/system_i/btle_controller_0/inst/btle_phy_i/rx_payload_length[0]"
-                                            }
-                                        ]
-                                    }
-                                ]
-                            },
-                            {
-                                "name": "probe4",
-                                "id": 25,
+                                "name": "probe6",
+                                "id": 6,
                                 "type": "DATA_TRIGGER",
                                 "direction": "IN",
                                 "isVector": true,
                                 "leftIndex": 0,
                                 "rightIndex": 2,
-                                "portIndex": 4,
-                                "nets": [
-                                    {
-                                        "name": "i_system_wrapper/system_i/btle_controller_0/inst/btle_phy_i/rx_best_phase",
-                                        "isBus": true,
-                                        "subnets": [
-                                            {
-                                                "name": "i_system_wrapper/system_i/btle_controller_0/inst/btle_phy_i/rx_best_phase[2]"
-                                            },
-                                            {
-                                                "name": "i_system_wrapper/system_i/btle_controller_0/inst/btle_phy_i/rx_best_phase[1]"
-                                            },
-                                            {
-                                                "name": "i_system_wrapper/system_i/btle_controller_0/inst/btle_phy_i/rx_best_phase[0]"
-                                            }
-                                        ]
-                                    }
-                                ]
-                            },
-                            {
-                                "name": "probe5",
-                                "id": 26,
-                                "type": "DATA_TRIGGER",
-                                "direction": "IN",
-                                "isVector": true,
-                                "leftIndex": 0,
-                                "rightIndex": 7,
-                                "portIndex": 5,
-                                "nets": [
-                                    {
-                                        "name": "i_system_wrapper/system_i/btle_controller_0/inst/btle_phy_i/btle_rx_i/octet_internal[3]",
-                                        "isBus": true,
-                                        "subnets": [
-                                            {
-                                                "name": "i_system_wrapper/system_i/btle_controller_0/inst/btle_phy_i/btle_rx_i/octet_internal[3][7]"
-                                            },
-                                            {
-                                                "name": "i_system_wrapper/system_i/btle_controller_0/inst/btle_phy_i/btle_rx_i/octet_internal[3][6]"
-                                            },
-                                            {
-                                                "name": "i_system_wrapper/system_i/btle_controller_0/inst/btle_phy_i/btle_rx_i/octet_internal[3][5]"
-                                            },
-                                            {
-                                                "name": "i_system_wrapper/system_i/btle_controller_0/inst/btle_phy_i/btle_rx_i/octet_internal[3][4]"
-                                            },
-                                            {
-                                                "name": "i_system_wrapper/system_i/btle_controller_0/inst/btle_phy_i/btle_rx_i/octet_internal[3][3]"
-                                            },
-                                            {
-                                                "name": "i_system_wrapper/system_i/btle_controller_0/inst/btle_phy_i/btle_rx_i/octet_internal[3][2]"
-                                            },
-                                            {
-                                                "name": "i_system_wrapper/system_i/btle_controller_0/inst/btle_phy_i/btle_rx_i/octet_internal[3][1]"
-                                            },
-                                            {
-                                                "name": "i_system_wrapper/system_i/btle_controller_0/inst/btle_phy_i/btle_rx_i/octet_internal[3][0]"
-                                            }
-                                        ]
-                                    }
-                                ]
-                            },
-                            {
-                                "name": "probe6",
-                                "id": 27,
-                                "type": "DATA_TRIGGER",
-                                "direction": "IN",
-                                "isVector": true,
-                                "leftIndex": 0,
-                                "rightIndex": 7,
                                 "portIndex": 6,
                                 "nets": [
                                     {
-                                        "name": "i_system_wrapper/system_i/btle_controller_0/inst/btle_phy_i/btle_rx_i/octet_internal[2]",
+                                        "name": "i_system_wrapper/system_i/btle_controller_0/inst/ext_rx_best_phase",
                                         "isBus": true,
                                         "subnets": [
                                             {
-                                                "name": "i_system_wrapper/system_i/btle_controller_0/inst/btle_phy_i/btle_rx_i/octet_internal[2][7]"
+                                                "name": "i_system_wrapper/system_i/btle_controller_0/inst/ext_rx_best_phase[2]"
                                             },
                                             {
-                                                "name": "i_system_wrapper/system_i/btle_controller_0/inst/btle_phy_i/btle_rx_i/octet_internal[2][6]"
+                                                "name": "i_system_wrapper/system_i/btle_controller_0/inst/ext_rx_best_phase[1]"
                                             },
                                             {
-                                                "name": "i_system_wrapper/system_i/btle_controller_0/inst/btle_phy_i/btle_rx_i/octet_internal[2][5]"
-                                            },
-                                            {
-                                                "name": "i_system_wrapper/system_i/btle_controller_0/inst/btle_phy_i/btle_rx_i/octet_internal[2][4]"
-                                            },
-                                            {
-                                                "name": "i_system_wrapper/system_i/btle_controller_0/inst/btle_phy_i/btle_rx_i/octet_internal[2][3]"
-                                            },
-                                            {
-                                                "name": "i_system_wrapper/system_i/btle_controller_0/inst/btle_phy_i/btle_rx_i/octet_internal[2][2]"
-                                            },
-                                            {
-                                                "name": "i_system_wrapper/system_i/btle_controller_0/inst/btle_phy_i/btle_rx_i/octet_internal[2][1]"
-                                            },
-                                            {
-                                                "name": "i_system_wrapper/system_i/btle_controller_0/inst/btle_phy_i/btle_rx_i/octet_internal[2][0]"
+                                                "name": "i_system_wrapper/system_i/btle_controller_0/inst/ext_rx_best_phase[0]"
                                             }
                                         ]
                                     }
@@ -877,41 +464,38 @@
                             },
                             {
                                 "name": "probe7",
-                                "id": 28,
+                                "id": 7,
                                 "type": "DATA_TRIGGER",
                                 "direction": "IN",
                                 "isVector": true,
                                 "leftIndex": 0,
-                                "rightIndex": 7,
+                                "rightIndex": 6,
                                 "portIndex": 7,
                                 "nets": [
                                     {
-                                        "name": "i_system_wrapper/system_i/btle_controller_0/inst/btle_phy_i/btle_rx_i/octet_internal[1]",
+                                        "name": "i_system_wrapper/system_i/btle_controller_0/inst/ext_rx_payload_length",
                                         "isBus": true,
                                         "subnets": [
                                             {
-                                                "name": "i_system_wrapper/system_i/btle_controller_0/inst/btle_phy_i/btle_rx_i/octet_internal[1][7]"
+                                                "name": "i_system_wrapper/system_i/btle_controller_0/inst/ext_rx_payload_length[6]"
                                             },
                                             {
-                                                "name": "i_system_wrapper/system_i/btle_controller_0/inst/btle_phy_i/btle_rx_i/octet_internal[1][6]"
+                                                "name": "i_system_wrapper/system_i/btle_controller_0/inst/ext_rx_payload_length[5]"
                                             },
                                             {
-                                                "name": "i_system_wrapper/system_i/btle_controller_0/inst/btle_phy_i/btle_rx_i/octet_internal[1][5]"
+                                                "name": "i_system_wrapper/system_i/btle_controller_0/inst/ext_rx_payload_length[4]"
                                             },
                                             {
-                                                "name": "i_system_wrapper/system_i/btle_controller_0/inst/btle_phy_i/btle_rx_i/octet_internal[1][4]"
+                                                "name": "i_system_wrapper/system_i/btle_controller_0/inst/ext_rx_payload_length[3]"
                                             },
                                             {
-                                                "name": "i_system_wrapper/system_i/btle_controller_0/inst/btle_phy_i/btle_rx_i/octet_internal[1][3]"
+                                                "name": "i_system_wrapper/system_i/btle_controller_0/inst/ext_rx_payload_length[2]"
                                             },
                                             {
-                                                "name": "i_system_wrapper/system_i/btle_controller_0/inst/btle_phy_i/btle_rx_i/octet_internal[1][2]"
+                                                "name": "i_system_wrapper/system_i/btle_controller_0/inst/ext_rx_payload_length[1]"
                                             },
                                             {
-                                                "name": "i_system_wrapper/system_i/btle_controller_0/inst/btle_phy_i/btle_rx_i/octet_internal[1][1]"
-                                            },
-                                            {
-                                                "name": "i_system_wrapper/system_i/btle_controller_0/inst/btle_phy_i/btle_rx_i/octet_internal[1][0]"
+                                                "name": "i_system_wrapper/system_i/btle_controller_0/inst/ext_rx_payload_length[0]"
                                             }
                                         ]
                                     }
@@ -919,214 +503,45 @@
                             },
                             {
                                 "name": "probe8",
-                                "id": 29,
+                                "id": 8,
                                 "type": "DATA_TRIGGER",
                                 "direction": "IN",
-                                "isVector": true,
+                                "isVector": false,
                                 "leftIndex": 0,
-                                "rightIndex": 7,
+                                "rightIndex": 0,
                                 "portIndex": 8,
                                 "nets": [
                                     {
-                                        "name": "i_system_wrapper/system_i/btle_controller_0/inst/btle_phy_i/btle_rx_i/octet_internal[0]",
-                                        "isBus": true,
-                                        "subnets": [
-                                            {
-                                                "name": "i_system_wrapper/system_i/btle_controller_0/inst/btle_phy_i/btle_rx_i/octet_internal[0][7]"
-                                            },
-                                            {
-                                                "name": "i_system_wrapper/system_i/btle_controller_0/inst/btle_phy_i/btle_rx_i/octet_internal[0][6]"
-                                            },
-                                            {
-                                                "name": "i_system_wrapper/system_i/btle_controller_0/inst/btle_phy_i/btle_rx_i/octet_internal[0][5]"
-                                            },
-                                            {
-                                                "name": "i_system_wrapper/system_i/btle_controller_0/inst/btle_phy_i/btle_rx_i/octet_internal[0][4]"
-                                            },
-                                            {
-                                                "name": "i_system_wrapper/system_i/btle_controller_0/inst/btle_phy_i/btle_rx_i/octet_internal[0][3]"
-                                            },
-                                            {
-                                                "name": "i_system_wrapper/system_i/btle_controller_0/inst/btle_phy_i/btle_rx_i/octet_internal[0][2]"
-                                            },
-                                            {
-                                                "name": "i_system_wrapper/system_i/btle_controller_0/inst/btle_phy_i/btle_rx_i/octet_internal[0][1]"
-                                            },
-                                            {
-                                                "name": "i_system_wrapper/system_i/btle_controller_0/inst/btle_phy_i/btle_rx_i/octet_internal[0][0]"
-                                            }
-                                        ]
+                                        "name": "i_system_wrapper/system_i/btle_controller_0/inst/rx_iq_valid",
+                                        "isBus": false
                                     }
                                 ]
                             },
                             {
                                 "name": "probe9",
-                                "id": 30,
+                                "id": 9,
                                 "type": "DATA_TRIGGER",
                                 "direction": "IN",
-                                "isVector": true,
+                                "isVector": false,
                                 "leftIndex": 0,
-                                "rightIndex": 5,
+                                "rightIndex": 0,
                                 "portIndex": 9,
                                 "nets": [
                                     {
-                                        "name": "i_system_wrapper/system_i/btle_controller_0/inst/btle_ll_i/rx_channel_number",
-                                        "isBus": true,
-                                        "subnets": [
-                                            {
-                                                "name": "i_system_wrapper/system_i/btle_controller_0/inst/btle_ll_i/rx_channel_number[5]"
-                                            },
-                                            {
-                                                "name": "i_system_wrapper/system_i/btle_controller_0/inst/btle_ll_i/rx_channel_number[4]"
-                                            },
-                                            {
-                                                "name": "i_system_wrapper/system_i/btle_controller_0/inst/btle_ll_i/rx_channel_number[3]"
-                                            },
-                                            {
-                                                "name": "i_system_wrapper/system_i/btle_controller_0/inst/btle_ll_i/rx_channel_number[2]"
-                                            },
-                                            {
-                                                "name": "i_system_wrapper/system_i/btle_controller_0/inst/btle_ll_i/rx_channel_number[1]"
-                                            },
-                                            {
-                                                "name": "i_system_wrapper/system_i/btle_controller_0/inst/btle_ll_i/rx_channel_number[0]"
-                                            }
-                                        ]
+                                        "name": "i_system_wrapper/system_i/btle_controller_0/inst/agc_lock_change",
+                                        "isBus": false
                                     }
                                 ]
                             },
                             {
                                 "name": "probe10",
-                                "id": 31,
-                                "type": "DATA_TRIGGER",
-                                "direction": "IN",
-                                "isVector": true,
-                                "leftIndex": 0,
-                                "rightIndex": 0,
-                                "portIndex": 10,
-                                "nets": [
-                                    {
-                                        "name": "i_system_wrapper/system_i/btle_controller_0/inst/btle_ll_i/reg_gpio_1",
-                                        "isBus": true,
-                                        "subnets": [
-                                            {
-                                                "name": "i_system_wrapper/system_i/btle_controller_0/inst/btle_ll_i/reg_gpio_1[0]"
-                                            }
-                                        ]
-                                    }
-                                ]
-                            },
-                            {
-                                "name": "probe10",
-                                "id": 32,
-                                "type": "DATA_TRIGGER",
-                                "direction": "IN",
-                                "isVector": true,
-                                "leftIndex": 1,
-                                "rightIndex": 1,
-                                "portIndex": 10,
-                                "nets": [
-                                    {
-                                        "name": "i_system_wrapper/system_i/btle_controller_0/inst/btle_ll_i/reg_gpio",
-                                        "isBus": true,
-                                        "subnets": [
-                                            {
-                                                "name": "i_system_wrapper/system_i/btle_controller_0/inst/btle_ll_i/reg_gpio[15]"
-                                            }
-                                        ]
-                                    }
-                                ]
-                            },
-                            {
-                                "name": "probe11",
-                                "id": 33,
-                                "type": "DATA_TRIGGER",
-                                "direction": "IN",
-                                "isVector": true,
-                                "leftIndex": 0,
-                                "rightIndex": 3,
-                                "portIndex": 11,
-                                "nets": [
-                                    {
-                                        "name": "i_system_wrapper/system_i/btle_controller_0/inst/btle_ll_i/event1_counter",
-                                        "isBus": true,
-                                        "subnets": [
-                                            {
-                                                "name": "i_system_wrapper/system_i/btle_controller_0/inst/btle_ll_i/event1_counter[3]"
-                                            },
-                                            {
-                                                "name": "i_system_wrapper/system_i/btle_controller_0/inst/btle_ll_i/event1_counter[2]"
-                                            },
-                                            {
-                                                "name": "i_system_wrapper/system_i/btle_controller_0/inst/btle_ll_i/event1_counter[1]"
-                                            },
-                                            {
-                                                "name": "i_system_wrapper/system_i/btle_controller_0/inst/btle_ll_i/event1_counter[0]"
-                                            }
-                                        ]
-                                    }
-                                ]
-                            },
-                            {
-                                "name": "probe12",
-                                "id": 34,
+                                "id": 10,
                                 "type": "DATA_TRIGGER",
                                 "direction": "IN",
                                 "isVector": false,
                                 "leftIndex": 0,
                                 "rightIndex": 0,
-                                "portIndex": 12,
-                                "nets": [
-                                    {
-                                        "name": "i_system_wrapper/system_i/btle_controller_0/inst/btle_ll_i/clk_cross_by_xpm_fifo_async_s_axi_to_bb_i/read_data",
-                                        "isBus": true,
-                                        "subnets": [
-                                            {
-                                                "name": "i_system_wrapper/system_i/btle_controller_0/inst/btle_ll_i/clk_cross_by_xpm_fifo_async_s_axi_to_bb_i/read_data[206]"
-                                            }
-                                        ]
-                                    }
-                                ]
-                            },
-                            {
-                                "name": "probe13",
-                                "id": 35,
-                                "type": "DATA_TRIGGER",
-                                "direction": "IN",
-                                "isVector": true,
-                                "leftIndex": 0,
-                                "rightIndex": 3,
-                                "portIndex": 13,
-                                "nets": [
-                                    {
-                                        "name": "i_system_wrapper/system_i/btle_controller_0/inst/btle_ll_i/clk_cross_by_xpm_fifo_async_s_axi_to_bb_i/rd_data_count",
-                                        "isBus": true,
-                                        "subnets": [
-                                            {
-                                                "name": "i_system_wrapper/system_i/btle_controller_0/inst/btle_ll_i/clk_cross_by_xpm_fifo_async_s_axi_to_bb_i/rd_data_count[3]"
-                                            },
-                                            {
-                                                "name": "i_system_wrapper/system_i/btle_controller_0/inst/btle_ll_i/clk_cross_by_xpm_fifo_async_s_axi_to_bb_i/rd_data_count[2]"
-                                            },
-                                            {
-                                                "name": "i_system_wrapper/system_i/btle_controller_0/inst/btle_ll_i/clk_cross_by_xpm_fifo_async_s_axi_to_bb_i/rd_data_count[1]"
-                                            },
-                                            {
-                                                "name": "i_system_wrapper/system_i/btle_controller_0/inst/btle_ll_i/clk_cross_by_xpm_fifo_async_s_axi_to_bb_i/rd_data_count[0]"
-                                            }
-                                        ]
-                                    }
-                                ]
-                            },
-                            {
-                                "name": "probe14",
-                                "id": 36,
-                                "type": "DATA_TRIGGER",
-                                "direction": "IN",
-                                "isVector": false,
-                                "leftIndex": 0,
-                                "rightIndex": 0,
-                                "portIndex": 14,
+                                "portIndex": 10,
                                 "nets": [
                                     {
                                         "name": "i_system_wrapper/system_i/btle_controller_0/inst/agc_lock_state",
@@ -1135,271 +550,66 @@
                                 ]
                             },
                             {
-                                "name": "probe15",
-                                "id": 37,
+                                "name": "probe11",
+                                "id": 11,
                                 "type": "DATA_TRIGGER",
                                 "direction": "IN",
                                 "isVector": false,
                                 "leftIndex": 0,
                                 "rightIndex": 0,
-                                "portIndex": 15,
+                                "portIndex": 11,
                                 "nets": [
                                     {
-                                        "name": "i_system_wrapper/system_i/btle_controller_0/inst/btle_phy_i/btle_rx_i/decode_end_all",
+                                        "name": "i_system_wrapper/system_i/btle_controller_0/inst/ext_rx_hit_flag",
                                         "isBus": false
                                     }
                                 ]
                             },
                             {
-                                "name": "probe16",
-                                "id": 38,
+                                "name": "probe12",
+                                "id": 12,
                                 "type": "DATA_TRIGGER",
                                 "direction": "IN",
                                 "isVector": false,
                                 "leftIndex": 0,
                                 "rightIndex": 0,
-                                "portIndex": 16,
+                                "portIndex": 12,
                                 "nets": [
                                     {
-                                        "name": "i_system_wrapper/system_i/btle_controller_0/inst/btle_phy_i/btle_rx_i/decode_end_early",
+                                        "name": "i_system_wrapper/system_i/btle_controller_0/inst/ext_rx_decode_run",
                                         "isBus": false
                                     }
                                 ]
                             },
                             {
-                                "name": "probe17",
-                                "id": 39,
+                                "name": "probe13",
+                                "id": 13,
                                 "type": "DATA_TRIGGER",
                                 "direction": "IN",
                                 "isVector": false,
                                 "leftIndex": 0,
                                 "rightIndex": 0,
-                                "portIndex": 17,
+                                "portIndex": 13,
                                 "nets": [
                                     {
-                                        "name": "i_system_wrapper/system_i/btle_controller_0/inst/btle_phy_i/btle_rx_i/decode_end_state",
+                                        "name": "i_system_wrapper/system_i/btle_controller_0/inst/ext_rx_decode_end",
                                         "isBus": false
                                     }
                                 ]
                             },
                             {
-                                "name": "probe18",
-                                "id": 40,
+                                "name": "probe14",
+                                "id": 14,
                                 "type": "DATA_TRIGGER",
                                 "direction": "IN",
                                 "isVector": false,
                                 "leftIndex": 0,
                                 "rightIndex": 0,
-                                "portIndex": 18,
+                                "portIndex": 14,
                                 "nets": [
                                     {
-                                        "name": "i_system_wrapper/system_i/btle_controller_0/inst/btle_phy_i/btle_rx_i/decode_restart",
+                                        "name": "i_system_wrapper/system_i/btle_controller_0/inst/ext_rx_crc_ok",
                                         "isBus": false
-                                    }
-                                ]
-                            },
-                            {
-                                "name": "probe19",
-                                "id": 41,
-                                "type": "DATA_TRIGGER",
-                                "direction": "IN",
-                                "isVector": false,
-                                "leftIndex": 0,
-                                "rightIndex": 0,
-                                "portIndex": 19,
-                                "nets": [
-                                    {
-                                        "name": "i_system_wrapper/system_i/btle_controller_0/inst/btle_ll_i/event_counter_level_decode_run_i/level_signal_delay",
-                                        "isBus": false
-                                    }
-                                ]
-                            },
-                            {
-                                "name": "probe20",
-                                "id": 42,
-                                "type": "DATA_TRIGGER",
-                                "direction": "IN",
-                                "isVector": false,
-                                "leftIndex": 0,
-                                "rightIndex": 0,
-                                "portIndex": 20,
-                                "nets": [
-                                    {
-                                        "name": "i_system_wrapper/system_i/btle_controller_0/inst/btle_phy_i/btle_rx_i/octet_valid_0",
-                                        "isBus": false
-                                    }
-                                ]
-                            },
-                            {
-                                "name": "probe21",
-                                "id": 43,
-                                "type": "DATA_TRIGGER",
-                                "direction": "IN",
-                                "isVector": false,
-                                "leftIndex": 0,
-                                "rightIndex": 0,
-                                "portIndex": 21,
-                                "nets": [
-                                    {
-                                        "name": "i_system_wrapper/system_i/btle_controller_0/inst/btle_phy_i/btle_rx_i/octet_valid_1",
-                                        "isBus": false
-                                    }
-                                ]
-                            },
-                            {
-                                "name": "probe22",
-                                "id": 44,
-                                "type": "DATA_TRIGGER",
-                                "direction": "IN",
-                                "isVector": false,
-                                "leftIndex": 0,
-                                "rightIndex": 0,
-                                "portIndex": 22,
-                                "nets": [
-                                    {
-                                        "name": "i_system_wrapper/system_i/btle_controller_0/inst/btle_phy_i/btle_rx_i/octet_valid_2",
-                                        "isBus": false
-                                    }
-                                ]
-                            },
-                            {
-                                "name": "probe23",
-                                "id": 45,
-                                "type": "DATA_TRIGGER",
-                                "direction": "IN",
-                                "isVector": false,
-                                "leftIndex": 0,
-                                "rightIndex": 0,
-                                "portIndex": 23,
-                                "nets": [
-                                    {
-                                        "name": "i_system_wrapper/system_i/btle_controller_0/inst/btle_phy_i/btle_rx_i/octet_valid_3",
-                                        "isBus": false
-                                    }
-                                ]
-                            },
-                            {
-                                "name": "probe24",
-                                "id": 46,
-                                "type": "DATA_TRIGGER",
-                                "direction": "IN",
-                                "isVector": false,
-                                "leftIndex": 0,
-                                "rightIndex": 0,
-                                "portIndex": 24,
-                                "nets": [
-                                    {
-                                        "name": "i_system_wrapper/system_i/btle_controller_0/inst/btle_phy_i/rx_crc_ok",
-                                        "isBus": false
-                                    }
-                                ]
-                            },
-                            {
-                                "name": "probe25",
-                                "id": 47,
-                                "type": "DATA_TRIGGER",
-                                "direction": "IN",
-                                "isVector": false,
-                                "leftIndex": 0,
-                                "rightIndex": 0,
-                                "portIndex": 25,
-                                "nets": [
-                                    {
-                                        "name": "i_system_wrapper/system_i/btle_controller_0/inst/btle_ll_i/rx_crc_ok_capture_by_decode_end",
-                                        "isBus": false
-                                    }
-                                ]
-                            },
-                            {
-                                "name": "probe26",
-                                "id": 48,
-                                "type": "DATA_TRIGGER",
-                                "direction": "IN",
-                                "isVector": false,
-                                "leftIndex": 0,
-                                "rightIndex": 0,
-                                "portIndex": 26,
-                                "nets": [
-                                    {
-                                        "name": "i_system_wrapper/system_i/btle_controller_0/inst/btle_phy_i/rx_decode_end",
-                                        "isBus": false
-                                    }
-                                ]
-                            },
-                            {
-                                "name": "probe27",
-                                "id": 49,
-                                "type": "DATA_TRIGGER",
-                                "direction": "IN",
-                                "isVector": false,
-                                "leftIndex": 0,
-                                "rightIndex": 0,
-                                "portIndex": 27,
-                                "nets": [
-                                    {
-                                        "name": "i_system_wrapper/system_i/btle_controller_0/inst/btle_phy_i/rx_decode_run",
-                                        "isBus": false
-                                    }
-                                ]
-                            },
-                            {
-                                "name": "probe28",
-                                "id": 50,
-                                "type": "DATA_TRIGGER",
-                                "direction": "IN",
-                                "isVector": false,
-                                "leftIndex": 0,
-                                "rightIndex": 0,
-                                "portIndex": 28,
-                                "nets": [
-                                    {
-                                        "name": "i_system_wrapper/system_i/btle_controller_0/inst/btle_phy_i/rx_hit_flag",
-                                        "isBus": false
-                                    }
-                                ]
-                            },
-                            {
-                                "name": "probe29",
-                                "id": 51,
-                                "type": "DATA_TRIGGER",
-                                "direction": "IN",
-                                "isVector": false,
-                                "leftIndex": 0,
-                                "rightIndex": 0,
-                                "portIndex": 29,
-                                "nets": [
-                                    {
-                                        "name": "i_system_wrapper/system_i/btle_controller_0/inst/rx_iq_valid",
-                                        "isBus": false
-                                    }
-                                ]
-                            }
-                        ]
-                    }
-                ],
-                "parent_nets": [
-                    {
-                        "id": 0,
-                        "name": "i_system_wrapper/system_i/util_vector_logic_0/Res[0]",
-                        "state_reg": [
-                            {
-                                "name": "i_system_wrapper/system_i/btle_controller_0/inst/btle_phy_i/btle_tx_i/FSM_sequential_phy_tx_state_reg[0]",
-                                "states": [
-                                    {
-                                        "name": "TX_PDU",
-                                        "val": "10"
-                                    },
-                                    {
-                                        "name": "TX_PREAMBLE_ACCESS",
-                                        "val": "01"
-                                    },
-                                    {
-                                        "name": "WAIT_LAST_SAMPLE",
-                                        "val": "11"
-                                    },
-                                    {
-                                        "name": "IDLE",
-                                        "val": "00"
                                     }
                                 ]
                             }

@@ -440,25 +440,14 @@
                                 "id": 6,
                                 "type": "DATA_TRIGGER",
                                 "direction": "IN",
-                                "isVector": true,
+                                "isVector": false,
                                 "leftIndex": 0,
-                                "rightIndex": 2,
+                                "rightIndex": 0,
                                 "portIndex": 6,
                                 "nets": [
                                     {
-                                        "name": "i_system_wrapper/system_i/btle_controller_0/inst/ext_rx_best_phase",
-                                        "isBus": true,
-                                        "subnets": [
-                                            {
-                                                "name": "i_system_wrapper/system_i/btle_controller_0/inst/ext_rx_best_phase[2]"
-                                            },
-                                            {
-                                                "name": "i_system_wrapper/system_i/btle_controller_0/inst/ext_rx_best_phase[1]"
-                                            },
-                                            {
-                                                "name": "i_system_wrapper/system_i/btle_controller_0/inst/ext_rx_best_phase[0]"
-                                            }
-                                        ]
+                                        "name": "i_system_wrapper/system_i/btle_controller_0/inst/agc_lock_change",
+                                        "isBus": false
                                     }
                                 ]
                             },
@@ -467,37 +456,14 @@
                                 "id": 7,
                                 "type": "DATA_TRIGGER",
                                 "direction": "IN",
-                                "isVector": true,
+                                "isVector": false,
                                 "leftIndex": 0,
-                                "rightIndex": 6,
+                                "rightIndex": 0,
                                 "portIndex": 7,
                                 "nets": [
                                     {
-                                        "name": "i_system_wrapper/system_i/btle_controller_0/inst/ext_rx_payload_length",
-                                        "isBus": true,
-                                        "subnets": [
-                                            {
-                                                "name": "i_system_wrapper/system_i/btle_controller_0/inst/ext_rx_payload_length[6]"
-                                            },
-                                            {
-                                                "name": "i_system_wrapper/system_i/btle_controller_0/inst/ext_rx_payload_length[5]"
-                                            },
-                                            {
-                                                "name": "i_system_wrapper/system_i/btle_controller_0/inst/ext_rx_payload_length[4]"
-                                            },
-                                            {
-                                                "name": "i_system_wrapper/system_i/btle_controller_0/inst/ext_rx_payload_length[3]"
-                                            },
-                                            {
-                                                "name": "i_system_wrapper/system_i/btle_controller_0/inst/ext_rx_payload_length[2]"
-                                            },
-                                            {
-                                                "name": "i_system_wrapper/system_i/btle_controller_0/inst/ext_rx_payload_length[1]"
-                                            },
-                                            {
-                                                "name": "i_system_wrapper/system_i/btle_controller_0/inst/ext_rx_payload_length[0]"
-                                            }
-                                        ]
+                                        "name": "i_system_wrapper/system_i/btle_controller_0/inst/agc_lock_state",
+                                        "isBus": false
                                     }
                                 ]
                             },
@@ -513,102 +479,6 @@
                                 "nets": [
                                     {
                                         "name": "i_system_wrapper/system_i/btle_controller_0/inst/rx_iq_valid",
-                                        "isBus": false
-                                    }
-                                ]
-                            },
-                            {
-                                "name": "probe9",
-                                "id": 9,
-                                "type": "DATA_TRIGGER",
-                                "direction": "IN",
-                                "isVector": false,
-                                "leftIndex": 0,
-                                "rightIndex": 0,
-                                "portIndex": 9,
-                                "nets": [
-                                    {
-                                        "name": "i_system_wrapper/system_i/btle_controller_0/inst/agc_lock_change",
-                                        "isBus": false
-                                    }
-                                ]
-                            },
-                            {
-                                "name": "probe10",
-                                "id": 10,
-                                "type": "DATA_TRIGGER",
-                                "direction": "IN",
-                                "isVector": false,
-                                "leftIndex": 0,
-                                "rightIndex": 0,
-                                "portIndex": 10,
-                                "nets": [
-                                    {
-                                        "name": "i_system_wrapper/system_i/btle_controller_0/inst/agc_lock_state",
-                                        "isBus": false
-                                    }
-                                ]
-                            },
-                            {
-                                "name": "probe11",
-                                "id": 11,
-                                "type": "DATA_TRIGGER",
-                                "direction": "IN",
-                                "isVector": false,
-                                "leftIndex": 0,
-                                "rightIndex": 0,
-                                "portIndex": 11,
-                                "nets": [
-                                    {
-                                        "name": "i_system_wrapper/system_i/btle_controller_0/inst/ext_rx_hit_flag",
-                                        "isBus": false
-                                    }
-                                ]
-                            },
-                            {
-                                "name": "probe12",
-                                "id": 12,
-                                "type": "DATA_TRIGGER",
-                                "direction": "IN",
-                                "isVector": false,
-                                "leftIndex": 0,
-                                "rightIndex": 0,
-                                "portIndex": 12,
-                                "nets": [
-                                    {
-                                        "name": "i_system_wrapper/system_i/btle_controller_0/inst/ext_rx_decode_run",
-                                        "isBus": false
-                                    }
-                                ]
-                            },
-                            {
-                                "name": "probe13",
-                                "id": 13,
-                                "type": "DATA_TRIGGER",
-                                "direction": "IN",
-                                "isVector": false,
-                                "leftIndex": 0,
-                                "rightIndex": 0,
-                                "portIndex": 13,
-                                "nets": [
-                                    {
-                                        "name": "i_system_wrapper/system_i/btle_controller_0/inst/ext_rx_decode_end",
-                                        "isBus": false
-                                    }
-                                ]
-                            },
-                            {
-                                "name": "probe14",
-                                "id": 14,
-                                "type": "DATA_TRIGGER",
-                                "direction": "IN",
-                                "isVector": false,
-                                "leftIndex": 0,
-                                "rightIndex": 0,
-                                "portIndex": 14,
-                                "nets": [
-                                    {
-                                        "name": "i_system_wrapper/system_i/btle_controller_0/inst/ext_rx_crc_ok",
                                         "isBus": false
                                     }
                                 ]
